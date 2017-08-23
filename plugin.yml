@@ -1,0 +1,8 @@
+name: ExtremeJumpPads
+main: me.gobli989.extremejumppads.MainClass
+version: 1.0.0
+description: Adds just pads.
+
+commands:
+  extremejumppads:
+    description: Admin command
