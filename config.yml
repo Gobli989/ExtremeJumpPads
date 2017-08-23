@@ -1,0 +1,12 @@
+settings:
+  Need_Permission: true
+  Power_Front: 1.5
+  Power_Height: 1.0
+  Plate_Block: GOLD_PLATE
+  Bottom_Block: REDSTONE_BLOCK
+
+messages:
+  Prefix: "&8[&6ExtremeJumpPads&8]"
+  help:
+    Reload: "&e&o/ExtremeJumpPads reload &7- Reloads the config file."
+  Reload: "&7Configuration has successfully been reloaded."
