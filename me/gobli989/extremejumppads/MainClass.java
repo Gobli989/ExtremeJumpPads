@@ -29,14 +29,14 @@ public class MainClass extends JavaPlugin implements Listener {
 			if(player.getLocation().getBlock().getType() == mat1 && player.getLocation().subtract(0.0, 1.0, 0.0).getBlock().getType() == mat2);
 			Vector vector = player.getLocation().getDirection().multiply(getConfig().getInt("settings.Power_Front")).setY(getConfig().getInt("settings.Power_Height"));
 			player.setVelocity(vector);
-			player.playSound(player.getLocation(), Sound.PISTON_EXTEND, 1.0f, 1.0f);
+			player.playSound(player.getLocation(), Sound.BLOCK_PISTON_EXTEND, 1.0f, 1.0f);
 			player.setFallDistance(-9999f);
 		} else {
 			if(player.hasPermission("extremejumppads.use")) {
 				if(player.getLocation().getBlock().getType() == mat1 && player.getLocation().subtract(0.0, 1.0, 0.0).getBlock().getType() == mat2) {
 					Vector vector = player.getLocation().getDirection().multiply(getConfig().getInt("settings.Power_Front")).setY(getConfig().getInt("settings.Power_Height"));
 					player.setVelocity(vector);
-					player.playSound(player.getLocation(), Sound.PISTON_EXTEND, 1.0f, 1.0f);
+					player.playSound(player.getLocation(), Sound.BLOCK_PISTON_EXTEND, 1.0f, 1.0f);
 					player.setFallDistance(-9999f);
 				}
 			}
